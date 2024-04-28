@@ -54,6 +54,7 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
 }
 
 .logo img{
@@ -62,6 +63,7 @@ nav{
     /* border-style: solid;
     border-color: red; */
     border: 2px solid black;
+    width: 100px;
     
 }
 
