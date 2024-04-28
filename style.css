@@ -57,6 +57,8 @@ nav{
     align-items: center;
 }
 
+
+
 .logo img{
     height: 100px;
     border-radius: 50%;
@@ -65,6 +67,11 @@ nav{
     border: 2px solid black;
     width: 100px;
     
+}
+
+.logo img:hover{
+    transform: scale(1.1);
+    border: 2px solid yellow;
 }
 
 
@@ -77,6 +84,12 @@ nav{
     font-family: "Dancing Script", cursive;
     /* -webkit-text-stroke-width: 4px;
     -webkit-text-stroke: black; */
+    
+}
+
+#navLogo:hover{
+    color: #ffd60a;
+    transform: scale(1.1);
     
 }
 
